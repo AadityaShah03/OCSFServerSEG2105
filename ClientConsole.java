@@ -137,7 +137,7 @@ public class ClientConsole implements ChatIF
         System.out.println("ERROR - No login ID specified.  Connection aborted");
         System.exit(1);
       }
-    }
+    }//TODO
 
     ClientConsole chat= new ClientConsole(host, port,uid);
     chat.accept();  //Wait for console data
